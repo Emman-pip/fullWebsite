@@ -56,11 +56,13 @@ ul li {
     justify-content: center;
     padding:30px;
     gap:40px;
+    padding-top: 50px;
 }
 
 .left2 {
     display:flex;
     flex-direction: column;
+    gap:10px;
 }
 
 .big {
@@ -78,4 +80,10 @@ ul li {
     background-color: rgba(108, 147, 255, 0.748);
     color: white;
     border-radius: 5px;
+}
+
+.image2 {
+    align-items: center;
+    width: 100px;
+    height:auto
 }
