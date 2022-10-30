@@ -136,3 +136,34 @@ ul li {
     text-align: right;
     margin-right: 30%;
 }
+
+.footer {
+    display:flex;
+    background-color: rgba(108, 147, 255, 0.748);
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-evenly;
+    border-radius:5px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.some {
+    color: white;
+    background-color: rgba(108, 147, 255, 0.748);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bold {
+    font-weight: 900;
+    text-align: left;
+}
+
+.normal {
+    text-align: left;
+}
