@@ -6,11 +6,15 @@ body {
     flex-direction:column;
 }
 
-.header {
+.header,
+.top {
     display:flex;
-    justify-content: space-evenly;
     background-color: #1F2937;
     align-items:center
+}
+
+.header {
+    justify-content: space-evenly;
 }
 
 .left {
@@ -36,5 +40,42 @@ ul li {
 
 .lists {
     display:flex;
-    gap:10px;
+    gap:30px;
+}
+
+.right2 {
+
+}
+
+.image1 {
+    width: 600px;
+    height: auto;
+}
+
+.top {
+    justify-content: center;
+    padding:30px;
+    gap:40px;
+}
+
+.left2 {
+    display:flex;
+    flex-direction: column;
+}
+
+.big {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.small {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1 {
+    background-color: rgba(108, 147, 255, 0.748);
+    color: white;
+    border-radius: 5px;
 }
